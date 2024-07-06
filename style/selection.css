@@ -96,6 +96,13 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.device-item.active {
+  border-color: #020202; /* Border color when active */
+  box-shadow: 0 0 10px rgba(27, 28, 29, 0.5); /* Shadow effect when active */
+}
+
+
+
 .device-img {
   margin-bottom: 15px;
 }
