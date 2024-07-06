@@ -1,0 +1,155 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            height: 50px;
+        }
+        .free-shipping {
+            text-align: center;
+            margin: 10px 0;
+            color: #2c2c2c;
+        }
+        .info-message {
+            background-color: #e5f3ff;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            color: #0073e6;
+        }
+        .sample-section, .shopping-bag, .promo-code, .insurance-section, .order-summary {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            background-color: #fafafa;
+        }
+        .sample-section h3, .shopping-bag h3, .promo-code h3, .insurance-section h3, .order-summary h3 {
+            margin-top: 0;
+        }
+        .promo-code input, .promo-code button {
+            padding: 10px;
+            margin-right: 10px;
+        }
+        .promo-code button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .promo-code button:hover {
+            background-color: #333;
+        }
+        .shopping-bag table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .shopping-bag table, .shopping-bag th, .shopping-bag td {
+            border: 1px solid #ddd;
+        }
+        .shopping-bag th, .shopping-bag td {
+            padding: 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .shopping-bag th {
+            background-color: #f4f4f4;
+        }
+        .shopping-bag img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .shopping-bag .product-info {
+            display: flex;
+            align-items: flex-start;
+        }
+        .shopping-bag .product-info div {
+            margin-left: 10px;
+        }
+        .order-summary {
+            text-align: right;
+        }
+        .order-summary p {
+            margin: 10px 0;
+        }
+        .order-summary button {
+            background-color: #ff0055;
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .order-summary button:hover {
+            background-color: #cc0044;
+        }
+        .insurance-section label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .insurance-section input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+        .insurance-section a {
+            color: #0073e6;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 70%;
+            height: 70%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 20px;
+            box-sizing: border-box;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .popup .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+        .overlay {
+            
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            
+        }
+
+      

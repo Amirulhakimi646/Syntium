@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sephora Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="popup">
+        <span class="close-btn">X</span>
+        <div class="learn-more-section">
+            
+                <h3>What is Product Failure Protection?</h3>
+                <p>Product Failure Protection ensures coverage if you encounter issues with your skincare, makeup, or consumables purchased from us. This includes allergic reactions, product defects, or other specified problems.</p>
+        
+                <h3>Benefits:</h3>
+                <ul>
+                    <li><strong>Free Treatment or Replacement:</strong> If you experience an allergic reaction or adverse effects from a product purchased through our store, you are eligible for free treatment or replacement of the affected product.</li>
+                    <li><strong>Peace of Mind:</strong> Feel confident in your purchase knowing that you are protected against unforeseen issues with our products. This includes instances where a product does not perform as expected or causes unintended side effects.</li>
+                    <li><strong>Convenient Claims Process:</strong> Making a claim is straightforward. Simply contact our support team, and we will guide you through the process efficiently to ensure your issue is resolved promptly.</li>
+                    <li><strong>Quality Assurance:</strong> We stand behind the quality of our products. Product Failure Protection underscores our commitment to your satisfaction and safety by offering this added layer of assurance.</li>
+                </ul>
+        
+                <h3>Terms and Conditions:</h3>
+                <p>- Coverage extends for a specified duration after purchase.<br>
+                - Exclusions may apply, such as misuse or intentional damage to the product.<br>
+                - Read the full terms and conditions for detailed information.</p>
+        
+                <h3>Insurance Partner:</h3>
+                <p>We have partnered with [Insurance Company Name], a trusted provider specializing in consumer product protection. Their expertise ensures that claims are handled professionally and with care.</p>
+        
+                <h3>FAQs:</h3>
+                <dl>
+                    <dt>What does Product Failure Protection cover?</dt>
+                    <dd>Product defects, allergic reactions, and other specified issues.</dd>
+                    <dt>How do I make a claim?</dt>
+                    <dd>Contact our support team at [contact information] to initiate the claims process.</dd>
+                </dl>
+        
+                <p class="contact-us">For any questions about Product Failure Protection, please contact our support team at [support email/phone].</p>
+            
+        </div>
+            </div>
+    <div class="container">
+        <div class="header">
+            <img src="images/sephora_logo.png" alt="Sephora Logo">
+            <button>View Navigation</button>
+        </div>
+        <div class="free-shipping">
+            <p>Yay! you’ve hit free shipping!</p>
+        </div>
+        <div class="info-message">
+            <p>Samples/gifts and some rewards are not available for Click & Collect orders</p>
+        </div>
+        <div class="sample-section">
+            <h3>CHOOSE 3 SAMPLES WITH EVERY PURCHASE</h3>
+            <div>
+                <!-- Sample items will go here -->
+            </div>
+        </div>
+        <div class="shopping-bag">
+            <h3>SHOPPING BAG</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>PRODUCTS</th>
+                        <th>COLOR / TYPE</th>
+                        <th>PRICE</th>
+                        <th>QUANTITY</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="product-info">
+                            <img src="images/supergoop.png" alt="Supergoop Product">
+                            <div>SUPERGOOP! Unseen Sunscreen Broad Spectrum SPF 40 PA+++</div>
+                        </td>
+                        <td>50ml</td>
+                        <td>RM186.00</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>RM186.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="promo-code">
+            <h3>PROMO CODE</h3>
+            <input type="text" placeholder="Enter Promo Code">
+            <button>Apply</button>
+            <button>View All Promo Codes</button>
+        </div>
+        <div class="insurance-section">
+            <h3>Product Failure Protection (RM5.23)</h3>
+            <label>
+                <span>Include Product Failure Protection</span>
+                <input type="checkbox" id="insurance-checkbox">
+            </label>
+            <a id="learn-more-link">Learn more</a>
+        </div>
+        <div class="order-summary">
+            <p>Subtotal: RM186.00</p>
+            <p id="insurance-charge" style="display: none;">Product Failure Protection: RM5.23</p>
+            <p>Total: RM186.00</p>
+            <p>3 payments of RM62.00 with <a href="#">atome</a></p>
+            <button>Secure Checkout</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
