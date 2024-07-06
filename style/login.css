@@ -17,7 +17,7 @@ input{
     border:20x solid #ccc;
 }
 button{
-    background-color:rgb(114, 71, 149);
+    background-color: #feb47b;
     border:none;
     color:antiquewhite;
     padding:15px;
@@ -33,7 +33,7 @@ button{
 }
 .wrapper{
     width:350px;
-    background : burlywood;
+    background :#ff7e5f;
     color : white;
     border-radius: 5%;
 }
@@ -43,131 +43,31 @@ p{
 }
 
 
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:burlywood;
-    padding: 10px 20px;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+height: 80vh;
+width: 80vw;
+}
+
+.logo {
+    font-size: 60px;
     color: white;
+    font-family: 'Lobster', cursive;
 }
 
-.navbar-brand {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: "Lobster";
-    color: #0c0b0b;
-}
 
-.navbar-menu {
-    display: flex;
-    align-items: center;
-    color: #0c0b0b;
-}
-
-.navbar-menu a {
-    color: rgb(247, 244, 244);
-    padding: 10px 87px;
-    text-decoration: none;
-    display: block;
-
-}
-
-.navbar-menu a:hover {
-    background-color:rgb(253, 177, 115);
-    border-radius: 4px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-#box3{
-    padding-top: 50px;
-}
-
-.dropdown .dropbtn {
-    background-color:burlywood;
-    color:white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #e2c885;
-    border-radius: 4px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:burlywood;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: burlywood(225, 230, 161);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar-menu {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-menu a, .dropdown .dropbtn {
-        text-align: center;
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .dropdown-content {
-        position: static;
-        box-shadow: none;
-    }
-
-    .dropdown-content a {
-        text-align: center;
-    }
-}
-
-.section-above {
-    font-family: 'Poetsen One';
-    font-size: 30px;
-    color: #0c0b0b;
-    text-shadow: 1px 1px 2px rgba(41, 35, 35, 0.5);
-  
-}
-
-#logo {
-margin: 2px;
-text-align: center;
-}
-
-#logo-sub{
-    color:#333;
-    margin: 0px;
-    text-align: center;
-    padding: 0;
-}
-.navbar{
-    justify-content: space-between
-}
-h2{
-    font-family: "Zelda";
-}

@@ -225,7 +225,6 @@ text-align: center;
 }
 
 .styled-button {
-
     background: linear-gradient(90deg, #ff7e5f, #feb47b);
     border: none;
     border-radius: 25px;
@@ -242,7 +241,7 @@ text-align: center;
   
 }
 .button-container {
-    float:left;
+    text-align: center;
 }
 
 .styled-button:hover {
