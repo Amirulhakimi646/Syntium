@@ -151,5 +151,18 @@
             z-index: 999;
             
         }
+        #_text{
+            margin: 0;
+        }
+        #logo{
+            float: left;
+            margin-right: 20px;
+        }
 
-      
+        #_text2{
+            float: left;
+        }
+
+        #learn-more-link{
+            margin-left: 158px;
+        }
