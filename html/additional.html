@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Claim Details</title>
+  <link rel="stylesheet" href="../style/additional.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">ProtectLah.</div>
+        <ul class="nav-links">
+            <li><a href="#">CLAIM</a></li>
+            <li><a href="#">PARTNERS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+           
+        </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="claim-details">
+      <div class="container">
+        <h2 id="title">Claim Details</h2>
+        <form id="claim-form" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="description">Description of Problem:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="ic_copy">IC Copy (Identity Card Copy):</label>
+            <input type="file" id="ic_copy" name="ic_copy" accept=".pdf,.jpg,.jpeg,.png">
+          </div>
+          <div class="form-group">
+            <label for="hospital_receipts">Hospital Receipts:</label>
+            <input type="file" id="hospital_receipts" name="hospital_receipts" multiple accept=".pdf,.jpg,.jpeg,.png">
+          </div>
+          <div class="form-group">
+            <label for="diagnostics_reports">Diagnostics Reports:</label>
+            <input type="file" id="diagnostics_reports" name="diagnostics_reports" multiple accept=".pdf,.jpg,.jpeg,.png">
+          </div>
+          <div class="form-group">
+            <label for="itemised_bills">Itemised Hospital Bills:</label>
+            <input type="file" id="itemised_bills" name="itemised_bills" multiple accept=".pdf,.jpg,.jpeg,.png">
+          </div>
+          <button type="submit" id="submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Protectlah. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
