@@ -98,6 +98,8 @@ body {
   .form-group input[type="tel"],
   .form-group textarea,
   .form-group input[type="file"],
+
+  
   #submit-button {
     width: 100%;
     padding: 10px;
