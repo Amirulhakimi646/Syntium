@@ -17,7 +17,7 @@ input{
     border:20x solid #ccc;
 }
 button{
-    background-color:rgb(114, 71, 149);
+    background-color: #feb47b;
     border:none;
     color:antiquewhite;
     padding:15px;
@@ -33,7 +33,7 @@ button{
 }
 .wrapper{
     width:350px;
-    background : burlywood;
+    background :#ff7e5f;
     color : white;
     border-radius: 5%;
 }
