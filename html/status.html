@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProtectLah.</title>
-    <link rel="stylesheet" href="../style/statusupdated.css">
+    <link rel="stylesheet" href="../style/status.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,41 +15,43 @@
             <li><a href="#">CLAIM</a></li>
             <li><a href="#">PARTNERS</a></li>
             <li><a href="#">ABOUT US</a></li>
-           
         </ul>
     </nav>
 
-    <!-- Some other content above -->
-    <div class="section-above">
-        <h2 id= "logo">Claim Status: </h2>
-        
-    </div>
-    <div id="logo-sub">
-        <p> (Keep track on your History Claims) </p>   
-    </div>
-    
-    <div class="button-container">
-        <a href="selection.html" class="styled-button">File A New Claim:</a>
-      </div>
-  
-    <!-- Good to Know Section -->
-    <div id="box3"class="good-to-know">
-        <div class="box">
-            <h2>L ABSOLU ROUGE DRAMA MATTE</h2>
-            <img src="../images/images.png">
-            <p> Status: Claim successful <p>
-            
+    <div class="dashboard">
+        <div class="welcome-message">
+            <h2>Welcome back!</h2>
+            <p>Keep track of your claims history below.</p>
         </div>
-        <div class="box">
-            <h2>Amway Nutrilite Soy Protein Drink Mix - *Free scoop*</h2>
-            <img src="../images/image4.png">
 
-            <p>Status: Pending</p>
+        <a href="selection.html" class="styled-button">File A New Claim</a>
+
+        <div class="claims-overview">
+            <div class="claim-status">
+                <h3>Pending Claims</h3>
+                <p>1</p>
+            </div>
+            <div class="claim-status">
+                <h3>Successful Claims</h3>
+                <p>1</p>
+            </div>
         </div>
-    
-        <!-- Add more boxes as needed -->
+
+        <div class="product-grid">
+            <div class="product-item">
+                <h4>L ABSOLU ROUGE DRAMA MATTE</h4>
+                <img src="../images/images.png" alt="L ABSOLU ROUGE DRAMA MATTE">
+                <p>Status: <span class="product-status success">Claim successful</span></p>
+            </div>
+            <div class="product-item">
+                <h4>Amway Nutrilite Soy Protein Drink Mix - *Free scoop*</h4>
+                <img src="../images/image4.png" alt="Amway Nutrilite Soy Protein Drink Mix">
+                <p>Status: <span class="product-status pending">Pending</span></p>
+            </div>
+            <!-- Add more product items as needed -->
+        </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
