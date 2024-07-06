@@ -20,11 +20,12 @@ body {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
+    padding: 40px;
     width: 300px;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+
 }
 
 .box:hover {
@@ -84,6 +85,10 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+}
+
+#box3{
+    padding-top: 50px;
 }
 
 .dropdown .dropbtn {
