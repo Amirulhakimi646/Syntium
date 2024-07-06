@@ -43,18 +43,49 @@ p{
 }
 
 .navbar {
-    display: flex;
+    float:left;
     justify-content: space-between;
     background-color:rgb(135, 222, 136);
    
     color: white;
 }
 .navdiv{
-    display: flex;
+    float:right;
     align-items: center;
     justify-content: space-between;
 }
 
 li{
 float: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:burlywood;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-menu a:hover {
+    background-color:white;
+    border-radius: 4px;
 }
