@@ -1,9 +1,5 @@
 function Login() {
-    const usernameInput = ProtectLah.getElementByID("Username");
-    const passwordInput = Protectlah.getElementByID("Password");
-
-    const Username = usernameInput.value;
-    const Password = passwordInput.value;
+    window.location.href="html/status.html";
 }
 console.log(Username);
 console.log(Password);
