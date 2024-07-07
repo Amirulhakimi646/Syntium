@@ -166,3 +166,20 @@
         #learn-more-link{
             margin-left: 158px;
         }
+
+        #learn-more-link {
+            text-decoration: none;
+            color: blue;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        #hover-message {
+            background-color: yellow;
+            padding: 10px;
+            border: 1px solid black;
+            position: relative;
+            left: 0;
+            z-index: 10;
+            margin-bottom: 10px;
+        }

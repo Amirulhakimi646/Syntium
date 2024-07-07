@@ -41,5 +41,9 @@ const insuranceCheckbox = document.getElementById('insurance-checkbox');
 
         // Initial total update
         updateTotal();
+
+        
+        
+        
         
         
